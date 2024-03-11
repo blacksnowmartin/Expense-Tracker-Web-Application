@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+    <main>
+        <!-- Expense Form -->
+        <section id="expense-form">
+            <h2>Add Expense</h2>
+            <form id="expense-form">
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="food">Food</option>
+                    <option value="transport">Transport</option>
+                    <option value="entertainment">Entertainment</option>
+                    <!-- Add more categories -->
+                </select>
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" placeholder="Enter amount">
+                <label for="date">Date:</label>
+                <input type="date" id="date">
+                <button type="submit">Add Expense</button>
+            </form>
+        </section>
+        <!-- Expense List -->
+        <section id="expense-list">
+            <h2>Expense List</h2>
+            <ul id="expenses"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Expense Tracker App</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
