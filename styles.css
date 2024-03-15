@@ -2,10 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('bg_img.jpg'); /* Change 'your-background-image.jpg' to the path of your image */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center; /* Center the background image */
 }
 
 header, footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.5); /* Add transparency to header and footer */
     color: #fff;
     padding: 10px;
     text-align: center;
